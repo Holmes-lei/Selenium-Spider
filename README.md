@@ -47,10 +47,10 @@ table_df.to_csv("data_index.csv", index=True, encoding='utf-8')
 table_df.to_csv("data_no_index.csv", index=False, encoding='utf-8')
 with open('data.json', 'w') as f:
 ```
-5. Before using the code, go to the directory where chrome.exe is located, type cmd in the address bar and start remote debugging.
+5. Before using the code, go to the directory where chrome.exe is located, type cmd in the address bar and start remote debugging. "user-data-dir" is used to store the user data of the browser, the file address can be specified by yourself
 
 ```python
-C:\Program Files (x86)\Google\Chrome\Application>chrome.exe --remote-debugging-port=9222
+C:\Program Files (x86)\Google\Chrome\Application>chrome.exe --remote-debugging-port=9222 --user-data-dir="D:\selenium\test"
 ```
 
 
