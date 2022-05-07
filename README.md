@@ -1,7 +1,7 @@
 # Selenium-Spider
 Bypassing the login screen to crawl table data using Selenium.
 
-> [中文Readme]()
+> [中文README](https://github.com/Holmes-lei/Selenium-Spider/blob/main/Readme.md)
 
 ## Crawl Target
 
