@@ -19,10 +19,10 @@ Bypassing the login screen to crawl table data using Selenium.
 
 ## 使用方法
 
-1. 使用代码前，先进入chrome.exe所在的目录，在地址栏输入cmd后启动远程调试
+1. 使用代码前，先进入chrome.exe所在的目录，在地址栏输入cmd后启动远程调试。user-data-dir是用来存放浏览器的用户数据的，文件地址可以自己指定
 
 ```python
-C:\Program Files (x86)\Google\Chrome\Application>chrome.exe --remote-debugging-port=9222
+C:\Program Files (x86)\Google\Chrome\Application>chrome.exe --remote-debugging-port=9222 --user-data-dir="D:\selenium\test"
 ```
 
 2. 第25行，n的值为table需要翻页的次数
